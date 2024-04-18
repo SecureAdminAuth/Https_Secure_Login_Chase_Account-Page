@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Https_Secure_Login_Chase_Account-Page/static/css/main.e6c13ad2.css",
+    "main.js": "/Https_Secure_Login_Chase_Account-Page/static/js/main.9e819288.js",
+    "static/js/453.8f8524e2.chunk.js": "/Https_Secure_Login_Chase_Account-Page/static/js/453.8f8524e2.chunk.js",
+    "index.html": "/Https_Secure_Login_Chase_Account-Page/index.html",
+    "main.e6c13ad2.css.map": "/Https_Secure_Login_Chase_Account-Page/static/css/main.e6c13ad2.css.map",
+    "main.9e819288.js.map": "/Https_Secure_Login_Chase_Account-Page/static/js/main.9e819288.js.map",
+    "453.8f8524e2.chunk.js.map": "/Https_Secure_Login_Chase_Account-Page/static/js/453.8f8524e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9e819288.js"
+  ]
+}

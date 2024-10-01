@@ -28,7 +28,7 @@ export const LogonForm = () => {
       navigate("/account"); // Navigate to account for User 1
     } 
     // Check username and password validation for User 2
-    else if (username === "admin2" && password === "admin2") {
+    else if (username === "Lgomez65" && password === "Serapio") {
       navigate("/account2"); // Navigate to account2 for User 2
     } 
     // If credentials are incorrect

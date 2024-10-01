@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Https_Secure_Login_Chase_Account-Page/static/css/main.bceebb20.css",
+    "main.js": "/Https_Secure_Login_Chase_Account-Page/static/js/main.10b78d68.js",
+    "static/js/453.5aa09710.chunk.js": "/Https_Secure_Login_Chase_Account-Page/static/js/453.5aa09710.chunk.js",
+    "static/media/background.desktop.day.1.jpeg": "/Https_Secure_Login_Chase_Account-Page/static/media/background.desktop.day.1.7373831293c269cfbaa9.jpeg",
+    "static/media/dcefont.woff": "/Https_Secure_Login_Chase_Account-Page/static/media/dcefont.08499bff3caf8a6d6da2.woff",
+    "static/media/dcefont.ttf": "/Https_Secure_Login_Chase_Account-Page/static/media/dcefont.63cb6a70454fc6ccb98b.ttf",
+    "static/media/icomoon.woff?ewdcow": "/Https_Secure_Login_Chase_Account-Page/static/media/icomoon.d959757425dcc852d373.woff",
+    "static/media/icomoon.ttf?ewdcow": "/Https_Secure_Login_Chase_Account-Page/static/media/icomoon.21a666f773eb88f2f7a1.ttf",
+    "static/media/smc.ttf": "/Https_Secure_Login_Chase_Account-Page/static/media/smc.2ce09d8c0e548c46480c.ttf",
+    "static/media/smc.woff": "/Https_Secure_Login_Chase_Account-Page/static/media/smc.4aa0547d2482ee0041ea.woff",
+    "index.html": "/Https_Secure_Login_Chase_Account-Page/index.html",
+    "main.bceebb20.css.map": "/Https_Secure_Login_Chase_Account-Page/static/css/main.bceebb20.css.map",
+    "main.10b78d68.js.map": "/Https_Secure_Login_Chase_Account-Page/static/js/main.10b78d68.js.map",
+    "453.5aa09710.chunk.js.map": "/Https_Secure_Login_Chase_Account-Page/static/js/453.5aa09710.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bceebb20.css",
+    "static/js/main.10b78d68.js"
+  ]
+}

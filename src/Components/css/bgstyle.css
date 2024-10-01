@@ -1,0 +1,51 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-container {
+  background-image: url("../img/background.desktop.day.1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  background-image: url("../img/background.desktop.day.1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.login-form-container {
+  position: relative; /* Changed to relative positioning */
+  top: 400px; /* Shift down by 50% of the viewport height */
+  transform: translateY(-50%); /* Move the box up by half of its own height */
+  background-color: white;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.chase logo {
+  width: 200px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-image: url("../img/wordmark-white.png"); /* Replace 'path/to/your/image.png' with the actual path to your PNG image */
+  background-size: contain;
+  background-repeat: no-repeat;
+}

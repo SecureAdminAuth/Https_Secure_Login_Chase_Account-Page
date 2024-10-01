@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+#siteheader-container {
+  background-color: var(
+    --MdsBrandBar-_opaque-true__barBackgroundColor,
+    #005eb8
+  );
+}
+.sh-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.sh-static {
+  position: static;
+}
+dialog.sh__dialog-container #sh__searchInput-container {
+  position: fixed;
+  padding: 0 1rem;
+  width: 100%;
+  z-index: 5;
+}
+dialog.sh__dialog-container #sh__searchResults-container {
+  position: relative;
+  top: 3rem;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}

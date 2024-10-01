@@ -1,0 +1,1093 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+a {
+  background-color :transparent;
+}
+:focus,
+a:active,
+a:hover {
+  outline: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+a:focus:focus {
+  outline: #717171 dashed 0.0625rem;
+}
+.container-fluid {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.container-fluid:after,
+.container-fluid:before,
+.row:after,
+.row:before {
+  display: table;
+  content: " ";
+}
+.container-fluid:after,
+.container:after,
+.row:after {
+  clear: both;
+}
+.row {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 0.0625rem;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.hide-xs {
+  display: none !important;
+}
+.util.accessible-text,
+[accessibleText="true"] {
+  position: absolute !important;
+  clip: rect(0.0625rem 0.0625rem 0.0625rem 0.0625rem);
+  clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 0.0625rem !important;
+  width: 0.0625rem !important;
+  overflow: hidden;
+}
+.jpui.button {
+  box-sizing: border-box;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #414042;
+  background-color: #d6d6d6;
+  border: none;
+  border-radius: 0.3125rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  outline: 0.0625rem solid transparent;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-padding-before: 0;
+  -webkit-padding-end: 0;
+  -webkit-padding-after: 0;
+  -webkit-padding-start: 0;
+}
+.jpui.button .label {
+  display: inline-block;
+  line-height: 2.5rem;
+  margin: 0 1rem;
+}
+.jpui.button.primary {
+  background-color: #0b6efd;
+  border: none;
+}
+.jpui.button.primary:disabled {
+  background-color: #a9d5ed;
+}
+.jpui.button.fluid {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 2.5rem;
+  overflow-x: auto;
+}
+.jpui.button.fluid .label {
+  line-height: 1.125rem;
+  white-space: normal;
+  margin: 0.0625rem 0.75rem;
+}
+.jpui.checkbox {
+  margin-top: 0.1875rem;
+  margin-bottom: 0.1875rem;
+}
+.jpui.checkbox .checkbox-flex {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.jpui.checkbox .checkbox-flex label {
+  width: 100%;
+}
+.jpui.checkbox .checkbox-label {
+  padding-left: 0.625rem;
+  position: relative;
+  bottom: 0.0625rem;
+  display: table-cell;
+}
+.jpui.checkbox .checkboxWrap {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.jpui.checkbox .checkboxWrap .check {
+  display: inline-block;
+  border: 0.0625rem solid #959595;
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 0.1875rem;
+  position: relative;
+  bottom: 1.375rem;
+}
+.jpui.checkbox .checkboxWrap .check:after {
+  content: "";
+  width: 1.125rem;
+  height: 1.125rem;
+  font-size: 1.125rem;
+}
+.jpui.checkbox .checkbox__input {
+  opacity: 0;
+  position: relative;
+  height: 1.25rem;
+  width: 1.25rem;
+  z-index: 1;
+  vertical-align: bottom;
+}
+.jpui.checkbox .checkbox__input + .check {
+  color: #0b6efd;
+}
+.jpui.checkbox .checkbox__input + .check:after {
+  background-color: #fff;
+}
+.jpui.checkbox
+  .checkbox__input.checkbox__input--checked:not(.checkbox__input--disabled)
+  + .check {
+  border: 0.1875rem solid #0b6efd;
+}
+.jpui.checkbox
+  .checkbox__input.checkbox__input--checked:not(.checkbox__input--disabled)
+  + .check:after {
+  color: #fff;
+  background-color: #0b6efd;
+  font-size: 1rem;
+}
+.jpui.checkbox
+  input[type="checkbox"].checkbox__input--checked
+  + .checkmark:after {
+  content: "\f11b";
+}
+.jpui.checkbox:not(.disabled) [role="checkbox"],
+.jpui.checkbox:not(.disabled) input,
+.jpui.checkbox:not(.disabled) label {
+  cursor: pointer;
+}
+.jpui.input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  height: 2.5rem;
+  border: 0.0625rem solid #959595;
+  border-radius: 0;
+  outline: 0.0625rem solid transparent;
+  -webkit-appearance: none;
+  -webkit-user-select: text !important;
+}
+.jpui.input::-webkit-input-placeholder {
+  color: #717171;
+}
+.jpui.input:invalid {
+  box-shadow: none;
+}
+.jpui.link .link-anchor {
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+}
+.jpui.link .end-icon {
+  margin-left: -0.125rem;
+  padding-left: 0.3125rem;
+  font-size: 0.6429rem;
+  color: inherit !important;
+  display: inline;
+}
+.jpui.segment {
+  border-top: 0.3125rem transparent solid;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f6f3;
+  transition: opacity 0.25s ease-in-out;
+  position: relative;
+}
+.jpui.segment:not(.active) {
+  transition: border-top-color 0.25s, background-color 0.25s;
+}
+.jpui.icon {
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  color: #666;
+  font-size: 1em;
+  font-family: "dce dcefont";
+}
+.jpui.icon.check:after {
+  content: "\f11c";
+}
+.jpui.icon.checkmark:after {
+  content: "\f11b";
+}
+.jpui.icon.progressright:after {
+  content: "\f108";
+}
+.jpui.icon.info-color:after {
+  content: "\e62b";
+}
+.jpui.icon.close:after {
+  content: "\f11a";
+}
+.jpui.icon.check {
+  color: #126bc5;
+}
+.jpui.icon.checkmark {
+  color: #0092ff;
+}
+.jpui.button .label {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #414042;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.jpui.button.primary .label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.jpui.checkbox .checkbox-label {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #414042;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.jpui.input {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #717171;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.logon-floating-label .jpui.input:focus {
+  box-shadow: 0 3px 0 -1px #0b6efd;
+}
+.jpui.input:focus {
+  box-shadow: 0.0625rem 0.0625rem 0 #0b6efd, 0.0625rem -0.0625rem 0 #0b6efd,
+    -0.0625rem 0.0625rem 0 #0b6efd, -0.0625rem -0.0625rem 0 #0b6efd;
+}
+.jpui.link {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #126bc5;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.jpui.link .link-anchor {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #126bc5;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .jpui.link .link-anchor {
+    font-size: 0.875rem;
+  }
+}
+.jpui.tooltip {
+  display: inline-block;
+  position: relative;
+  line-height: 0.8125rem;
+}
+.jpui.tooltip .trigger:focus:not(:active) .info-color,
+.jpui.tooltip .trigger:focus:not(:active) .tooltip__flyout-trigger-charm {
+  outline: #666 dashed 0.0625rem;
+}
+.jpui.tooltip .trigger:active,
+.jpui.tooltip .trigger:focus {
+  outline: 0;
+}
+.jpui.tooltip .trigger,
+.jpui.tooltip span {
+  color: #959595;
+  font-size: 0.8125rem;
+}
+.jpui.tooltip .tooltip-body,
+.jpui.tooltipchip .tooltip-body {
+  font-weight: 300;
+  box-shadow: 0 0.125rem 0.1875rem 0 rgba(0, 0, 0, 0.28);
+  text-align: left;
+}
+.jpui.tooltip .trigger .icon.info-color,
+.jpui.tooltip span .icon.info-color {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.jpui.tooltip .trigger .icon.info-color:hover,
+.jpui.tooltip span .icon.info-color:hover {
+  color: #666;
+}
+.jpui.tooltip.disabled span .icon.info-color {
+  color: #bcbcbc;
+}
+.jpui.tooltip .close {
+  position: absolute;
+  right: 0.3125rem;
+  top: 0.3125rem;
+  display: none;
+  color: #414042;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+.jpui.tooltip .close .icon {
+  position: static;
+}
+.jpui.tooltip .tooltip-body {
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  background-color: #f9f6f3;
+  border: 0.0625rem solid #ccc;
+  z-index: 9999;
+  padding: 0.75rem 2.25rem 0.75rem 1rem;
+  width: 18rem;
+  line-height: 1.05rem;
+  color: #414042;
+  font-size: 0.875rem;
+}
+.jpui.tooltip .tooltip-body.tooltip-inverted {
+  border: 0.0625rem solid #292422;
+  background-color: #292422;
+}
+@media (min-width: 768px) {
+  .jpui.tooltip.flyout .trigger:focus .hasMinitooltip .minitooltip {
+    max-width: 21.875rem;
+  }
+  .jpui.tooltip .tooltip-body {
+    width: 21.875rem;
+  }
+}
+@media (min-width: 992px) {
+  .jpui.tooltip.flyout .trigger:focus .hasMinitooltip .minitooltip {
+    max-width: 24.25rem;
+  }
+  .jpui.tooltip .tooltip-body {
+    width: 24.25rem;
+  }
+}
+.jpui.tooltip .tooltip-body.medium {
+  width: 13.5rem;
+}
+@media (min-width: 768px) {
+  .jpui.tooltip .tooltip-body.medium {
+    width: 16.375rem;
+  }
+}
+@media (min-width: 992px) {
+  .jpui.tooltip .tooltip-body.medium {
+    width: 18.1875rem;
+  }
+}
+.jpui.tooltip .tooltip-body.small {
+  width: 9rem;
+}
+@media (min-width: 768px) {
+  .jpui.tooltip .tooltip-body.small {
+    width: 10.9375rem;
+  }
+}
+@media (min-width: 992px) {
+  .jpui.tooltip .tooltip-body.small {
+    width: 12.125rem;
+  }
+}
+.jpui.tooltip.open .trigger .icon.info-color {
+  color: #666;
+}
+.jpui.tooltip.open .close {
+  display: block;
+}
+.jpui.tooltip.open .tooltip-body {
+  display: block;
+  visibility: visible;
+  animation: fadeIn 0.3s ease 0s forwards;
+}
+.jpui.tooltip.open .tooltip-body:before {
+  position: absolute;
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  transform: rotate(45deg);
+  z-index: 2;
+  background-color: #f9f6f3;
+}
+.jpui.tooltip.open .tooltip-body.hide-arrow:before {
+  display: none;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--top {
+  top: 1.5rem;
+  animation: fadeIn 0.3s ease 0s forwards;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--top:before {
+  top: -0.375rem;
+  border-left: 0.0625rem solid #ccc;
+  border-top: 0.0625rem solid #ccc;
+  border-right: 0;
+  border-bottom: 0;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--bottom {
+  bottom: 1.5rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--bottom:before {
+  bottom: -0.35rem;
+  border-right: 0.0625rem solid #ccc;
+  border-bottom: 0.0625rem solid #ccc;
+  border-left: 0;
+  border-top: 0;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right {
+  right: -1.5rem;
+  animation: fadeIn 0.3s ease 0s forwards;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right:before {
+  right: 1.5rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right.tooltip-body--flyout {
+  right: -1rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--left {
+  left: -1rem;
+  animation: fadeIn 0.3s ease 0s forwards;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--left-flush-bottom {
+  bottom: -1rem;
+  left: 1.5rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--left-flush-bottom:before {
+  bottom: 1rem;
+  left: -0.35rem;
+  border-left: 0.0625rem solid #ccc;
+  border-bottom: 0.0625rem solid #ccc;
+  border-right: 0;
+  border-top: 0;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--left-flush-top {
+  top: -1rem;
+  left: 1.5rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--left-flush-top:before {
+  top: 1rem;
+  left: -0.35rem;
+  border-left: 0.0625rem solid #ccc;
+  border-bottom: 0.0625rem solid #ccc;
+  border-right: 0;
+  border-top: 0;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right-flush-bottom {
+  bottom: -1rem;
+  right: 1.5rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right-flush-bottom:before {
+  bottom: 1rem;
+  right: -0.375rem;
+  border-right: 0.0625rem solid #ccc;
+  border-top: 0.0625rem solid #ccc;
+  border-left: 0;
+  border-bottom: 0;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right-flush-top {
+  top: -1rem;
+  right: 1.5rem;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-position--right-flush-top:before {
+  top: 1rem;
+  right: -0.375rem;
+  border-right: 0.0625rem solid #ccc;
+  border-top: 0.0625rem solid #ccc;
+  border-left: 0;
+  border-bottom: 0;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-inverted:before {
+  background-color: #292422;
+  border: 0.0625rem solid #292422;
+}
+.jpui.tooltip.open .tooltip-body.tooltip-inverted .close,
+.jpui.tooltip.open .tooltip-body.tooltip-inverted .tooltip-content p,
+.jpui.tooltip.open .tooltip-body.tooltip-inverted em,
+.jpui.tooltip.open .tooltip-body.tooltip-inverted li,
+.jpui.tooltip.open .tooltip-body.tooltip-inverted strong {
+  color: #fff;
+}
+.jpui.tooltip em,
+.jpui.tooltip li,
+.jpui.tooltip p,
+.jpui.tooltip strong {
+  font-size: 0.875rem;
+  color: #414042;
+}
+.jpui.tooltip ul {
+  padding-left: 1.3125rem;
+}
+.clientSideError:-ms-input-placeholder {
+  color: #666 !important;
+}
+.logon-box #logon-error {
+  opacity: 1;
+}
+.logon-box #logon-error .title {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0.2rem;
+}
+.logon-box .jpui.label.error {
+  color: #bf2155 !important;
+  background: 0 0 !important;
+  border-radius: 0 !important;
+  text-transform: none !important;
+  line-height: normal;
+  white-space: normal;
+}
+.logon-box #password-input-field.clientSideError,
+.logon-box #userId-input-field.clientSideError {
+  box-shadow: 2px 2px 0 #bf2155, 2px -2px 0 #bf2155, -2px 2px 0 #bf2155,
+    -2px -2px 0 #bf2155;
+}
+.logon-box #password-input-field.clientSideError:focus,
+.logon-box #userId-input-field.clientSideError:focus {
+  box-shadow: 2px 2px 0 #bf2155, 2px -2px 0 #bf2155, -2px 2px 0 #bf2155,
+    -2px -2px 0 #bf2155;
+}
+::-webkit-input-placeholder {
+  color: #666;
+}
+::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #666;
+}
+.logon ::-webkit-input-placeholder {
+  color: #717171;
+}
+.logon ::-moz-placeholder {
+  color: #717171;
+}
+.logon :-moz-placeholder {
+  color: #717171;
+}
+.logon :-ms-input-placeholder {
+  color: #717171;
+}
+.homepage {
+  height: 100%;
+}
+#logon-content {
+  height: 100%;
+  position: relative;
+}
+.logon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 1;
+}
+.logon-box {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.logon-box .welcomeHeader {
+  font-size: 1.5rem;
+  color: #414042;
+  font-weight: 400;
+  margin: 0;
+  outline: 0;
+}
+.logon-box .implement-ada-features-enabled.welcomeHeader {
+  margin-bottom: 1.125rem;
+}
+.logon-box #useToken-link-wrapper {
+  display: inline-block;
+  padding-top: 0.1875rem;
+  padding-bottom: 0.1875rem;
+}
+.logon-box .useTokenCheckbox {
+  float: left;
+  width: 80%;
+}
+.logon-box .logon-remember-me {
+  padding-left: 0;
+}
+.logon-box .jpui.raised.segment {
+  background: 0 0;
+  padding: 0 8px;
+  margin: 0;
+}
+.logon-box .jpui.input {
+  width: 100%;
+  font-size: 1rem;
+  color: #414042;
+  background: 0 0;
+  border: none;
+  padding: 5px;
+  margin: 4px 0;
+  border-bottom: 1px solid #ccc;
+}
+.logon-box .jpui.input.clientSideError {
+  box-shadow: 2px 2px 0 #bf2155, 2px -2px 0 #bf2155, -2px 2px 0 #bf2155,
+    -2px -2px 0 #bf2155;
+}
+.logon-box .jpui.button.primary {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 7px 0 10px 0;
+  height: auto;
+}
+.logon-box .jpui.button.primary.isAda {
+  margin: 0 0 2px 0;
+}
+.logon-box .jpui.button.primary .label {
+  line-height: 36px;
+}
+.logon-box .jpui.button.primary:focus {
+  outline: #3a2206 dashed 0.0625rem;
+}
+.logon-box .jpui.checkbox .checkbox-label {
+  font-size: 0.875rem;
+  color: #666;
+}
+.logon-box .jpui.checkbox .checkbox__input:focus + .check {
+  outline: #3a2206 dashed 0.0625rem;
+}
+.logon-box.jpo {
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 14px;
+}
+.logon-box.jpo #useToken-link-wrapper {
+  padding-top: 0;
+}
+.logon-box.jpo .jpui.raised.segment {
+  padding: 0 0.875rem;
+}
+.logon-box.jpo .logon-floating-label .jpui.input:focus {
+  box-shadow: 0 3px 0 -1px #3a2206;
+}
+.logon-box.jpo .jpui.input {
+  margin-bottom: 0.625rem;
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.input:focus {
+  box-shadow: 0.0625rem 0.0625rem 0 #3a2206, 0.0625rem -0.0625rem 0 #3a2206,
+    -0.0625rem 0.0625rem 0 #3a2206, -0.0625rem -0.0625rem 0 #3a2206;
+}
+.logon-box.jpo .jpui.input::-webkit-input-placeholder {
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.input::-ms-input-placeholder {
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.input::placeholder {
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.checkbox .checkboxWrap {
+  height: 0.9375rem;
+  width: 0.9375rem;
+}
+.logon-box.jpo .jpui.checkbox .checkboxWrap .check {
+  border-radius: 0;
+  border-color: #d7d2cb;
+  height: 0.9375rem;
+  width: 0.9375rem;
+  bottom: 1.25rem;
+}
+.logon-box.jpo .jpui.checkbox .checkboxWrap .checkbox__input:focus + .check {
+  outline: #3a2206 dashed 0.0625rem;
+}
+.logon-box.jpo
+  .jpui.checkbox
+  .checkboxWrap
+  .checkbox__input.checkbox__input--checked
+  + .check {
+  border: 0;
+}
+.logon-box.jpo
+  .jpui.checkbox
+  .checkboxWrap
+  .checkbox__input.checkbox__input--checked
+  + .check:after {
+  font-size: 0.9375rem;
+  background-color: #3a2206;
+}
+.logon-box.jpo .jpui.checkbox .checkbox-label {
+  font-size: 14px;
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.link {
+  line-height: 1.57;
+}
+.logon-box.jpo .jpui.link .link-anchor {
+  font-size: 14px;
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.link .link-anchor:focus {
+  outline: 1px dashed #3a2206;
+}
+.logon-box.jpo .jpui.button.primary {
+  background-color: #fff !important;
+  font-size: 14px;
+  border-bottom: 0.0625rem solid #d7d2cb;
+  border-right: 0.0625rem solid #d7d2cb;
+  border-radius: 0;
+}
+.logon-box.jpo .jpui.button.primary:focus,
+.logon-box.jpo .jpui.button.primary:hover {
+  background-color: #3a2206 !important;
+}
+.logon-box.jpo .jpui.button.primary:focus .label,
+.logon-box.jpo .jpui.button.primary:hover .label {
+  color: #fff;
+}
+.logon-box.jpo .jpui.button.primary.focused-input,
+.logon-box.jpo .jpui.button.primary:disabled {
+  background-color: #d7d2cb !important;
+}
+.logon-box.jpo .jpui.button.primary.focused-input .label,
+.logon-box.jpo .jpui.button.primary:disabled .label {
+  color: #3a2206;
+}
+.logon-box.jpo .jpui.button.primary.valid-input {
+  background-color: #3a2206 !important;
+}
+.logon-box.jpo .jpui.button.primary.valid-input .label {
+  color: #fff;
+}
+.logon-box.jpo .jpui.button.primary .label {
+  color: #3a2206;
+  font-weight: 400;
+}
+.logon-box.jpo .forgot-password {
+  margin-bottom: 5px;
+}
+.logon-box.jpo .sign-in {
+  padding: 0 1.875rem;
+}
+.logon-box.jpo .sign-in .jpui.button {
+  text-transform: uppercase;
+}
+.logon-box .fieldgroup {
+  margin-top: 0;
+  text-align: left;
+}
+.logon-box .fieldgroup .horizontal,
+.logon-box .fieldgroup .vertical {
+  margin-bottom: 1.125rem;
+  margin-top: -0.3125rem;
+}
+.logon-box .fieldgroup .horizontal.fieldtext .tooltip .trigger,
+.logon-box .fieldgroup .vertical.fieldtext .tooltip .trigger {
+  font-size: 0.8125rem;
+}
+.logon-box .fieldgroup .vertical .tooltip {
+  margin-bottom: 0.125rem;
+}
+.logon-box .fieldgroup .vertical .validation__bubble-container {
+  top: -1.375rem;
+}
+.logon-box .fieldgroup .vertical:not(.fieldtext) .label-wrapper {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.logon-box .fieldgroup .vertical.fieldtext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logon-box .fieldgroup .vertical.fieldtext .label-wrapper {
+  margin-bottom: 0.1875rem;
+}
+.logon-box .fieldgroup .vertical .align-label-input.floating-label__container {
+  position: relative;
+}
+.logon-box
+  .fieldgroup
+  .vertical
+  .align-label-input.floating-label__container
+  .label-wrapper {
+  position: absolute;
+  display: inline-block;
+  margin-top: 0.75rem;
+  z-index: 1;
+  text-align: left;
+  pointer-events: none;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  color: #717171;
+}
+.logon-box
+  .fieldgroup
+  .vertical
+  .align-label-input.floating-label__container
+  .fieldlabel {
+  font-size: 1rem;
+}
+.logon-box
+  .fieldgroup
+  .vertical
+  .align-label-input.floating-label__container.floating
+  .label-wrapper {
+  transform: translate(-0.75rem, -1.5rem) scale(0.9);
+  transition: all 0.2s ease-in-out;
+  pointer-events: auto;
+}
+.logon-box
+  .fieldgroup
+  .vertical
+  .align-label-input.floating-label__container:not(.floating)
+  .select,
+.logon-box
+  .fieldgroup
+  .vertical
+  .align-label-input.floating-label__container:not(.floating)
+  .validationselect
+  select {
+  color: transparent;
+}
+.logon-box .fieldgroup .horizontal.non-responsive {
+  margin-top: 0;
+}
+.logon-box .fieldgroup .horizontal.non-responsive .align-label-input {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .logon-box .fieldgroup .horizontal {
+    margin-top: 0;
+  }
+  .logon-box .fieldgroup .horizontal.fieldlabel {
+    margin-bottom: 0;
+  }
+  .logon-box .fieldgroup .horizontal.fieldlabel.label-alignment {
+    display: inline-block;
+  }
+  .logon-box
+    .fieldgroup
+    .horizontal:not(.fieldtext):not(.non-responsive)
+    .align-label-input {
+    display: flex;
+    align-items: center;
+  }
+}
+.logon-box .fieldgroup .horizontal .label-wrapper {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .logon-box .fieldgroup .horizontal .label-wrapper {
+    padding-bottom: 0.4375rem;
+  }
+}
+@media (max-width: 767px) {
+  .logon-box
+    .fieldgroup
+    .horizontal:not(.non-responsive)
+    .align-label-input
+    .label-wrapper {
+    text-align: left;
+  }
+}
+.logon-box .fieldgroup .validation__accessible-text {
+  display: none;
+}
+.logon-box .fieldgroup .fieldhelpertext-container {
+  line-height: 1.25;
+}
+.logon-box .fieldgroup .fieldhelpertext-container.fieldhelpertext {
+  margin-top: 0.125rem;
+}
+.logon-box .fieldgroup .fieldhelpertext-container .fieldhelpertext {
+  margin-top: 0.1875rem;
+}
+.logon-box .fieldgroup .fieldhelpertext-container .additionalText {
+  display: inline;
+}
+.logon-box .fieldgroup .fieldhelpertext-container .yield .tooltip i {
+  font-size: 0.8125rem;
+}
+.logon-box .fieldgroup .textarea-wrapper {
+  margin-bottom: -0.3125rem;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .logon-box .fieldgroup .textarea-wrapper {
+    margin-bottom: 0;
+  }
+}
+.logon-box .fieldgroup .yield {
+  display: inline-block;
+}
+.logon-box .fieldgroup .tooltip {
+  vertical-align: middle;
+  text-align: left;
+}
+.logon-box .fieldgroup .zipcode-container .dash {
+  position: absolute;
+  left: -0.125rem;
+}
+.logon-box .fieldgroup .fieldset fieldset {
+  border: none;
+}
+.logon-box .fieldgroup .fieldtext--input {
+  border: none;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  display: block;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  _:-ms-fullscreen .jpui.primary.link:focus,
+  :root .jpui.primary.link:focus {
+    outline: 1px #126bc5 dotted !important;
+  }
+}
